@@ -1,0 +1,125 @@
+body {
+  width: 100%;
+  height: 50vh;
+  margin: 0;
+  background: linear-gradient(rgb(9, 252, 232), rgb(62, 141, 245), rgb(6, 11, 43));
+ background-attachment: fixed;
+  color: #d31f7d;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 16px;
+  scroll-behavior: smooth;
+  font-family: 'Trebuchet MS';
+}
+.frame{
+  border: 25px solid rgb(170, 67, 67);
+  background-color:rgb(0, 0, 0);
+  width: 500px;
+  padding: 50px;
+  margin: 20px auto;
+  padding-bottom: 10px;
+  border-radius: 4%;
+}
+.itonayun{
+  color:#000000;
+  border:0;
+  background: linear-gradient(rgb(122, 195, 243), rgb(248, 248, 252));
+  box-shadow: 0 0 20px 0 #ffffffcc; 
+}
+h1, p:first-of-type {
+  background: linear-gradient(rgb(56, 25, 25), rgb(122, 195, 243), rgb(248, 248, 252));
+  margin: 1em auto;
+  margin-top:0;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family:'Trebuchet MS';
+  border: 3.5px solid ;
+  border-color:white;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+fieldset {
+  
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 5px double orange;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+label {
+  width: auto;
+  display: block;
+  margin: 0 .5rem 0;
+  border:#e4d7d7c4;
+}
+input,
+textarea,
+select {
+  border: 5px solid #e4d7d7c4;
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input, textarea {
+  background-color: #e4d7d7c4;
+  border: 1px solid;
+  color: #ffffff;
+  border-color:linear-gradient(rgb(252, 9, 9), rgb(103, 119, 108), rgb(27, 221, 76));
+  margin-bottom: 0;
+}
+
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+title{
+  color:white;
+}
+input[type="submit"] {
+  display: block;
+  width: 80%;
+  margin: 1em auto;
+  height: 1em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+  min-width: 10px;
+  margin-bottom: 0;
+  font-family: 'Trebuchet MS';
+}
+
+input[type="file"] {
+  padding: 1px 2px;
+}
+.role{
+  background-color:#e4d7d7c4;
+  color:#000000;
+}
+
+.biot{
+   width: unset;
+  margin-top:0;
+  font-family: 'Trebuchet MS';
+}
+footer{
+  margin:0 auto;
+  padding-bottom: 5px;
+  color:white;
+  padding-top: 0px;
+  background-color: rgb(56, 22, 22);
+  font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border-top: .5px solid rgb(255, 255, 255);
+  border-bottom: .5px solid rgb(255, 255, 255);
+}
